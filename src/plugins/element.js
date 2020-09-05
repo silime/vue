@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import { Button, Main, Header, Container, Input, Row, Col, Popover } from 'element-ui'
+import { Button, Main, Header, Container, Input, Row, Col, Popover, Form, FormItem, Card, Menu, MenuItem, Submenu, TableColumn, Table, InputNumber } from 'element-ui'
 
 Vue.use(Button)
 Vue.use(Main)
@@ -9,3 +9,12 @@ Vue.use(Input)
 Vue.use(Row)
 Vue.use(Col)
 Vue.use(Popover)
+Vue.use(Form)
+Vue.use(Card)
+Vue.use(Menu)
+Vue.use(MenuItem)
+Vue.use(Submenu)
+Vue.use(FormItem)
+Vue.use(TableColumn)
+Vue.use(Table)
+Vue.use(InputNumber)
